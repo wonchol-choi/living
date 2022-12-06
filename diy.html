@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/diy.css" />
+<link rel="stylesheet" href="js/jquery-ui.min.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/diy.js"></script>
+</head>
+
+<body>
+
+<!--wrap 시작-->
+
+<div id="wrap">
+
+<!-- header 시작 -->
+<header id="header">
+  <div id="logo"><a href="index.html"><img src="images/logo.png" alt="로고"/></a></div>
+  <div id="topMenu">
+    <ul>
+      <li>
+        <ul class="util1">
+          <li><a href="#">login</a></li>
+          <li><a href="#">join</a></li>
+          <li><a href="#">service center</a></li>
+        </ul>
+        <ul class="util2">
+          <li><a href="#">contact</a></li>
+          <li><a href="#">sitemap</a></li>
+        </ul>
+        <ul class="util3">
+          <form name="sform" method="get" id="sform">
+            <fieldset>
+              <legend class="skip">검색</legend>
+              <label for="sbox" class="skip"></label>
+              <!--for 값과 아래 인풋의 id명이 같아야 이 글씨를 눌러도 인풋요소(커서) 활성화 됨(모바일 때문에)-->
+              <input type="search" id="sbox" placeholder="search" />
+              <input type="image" class="btn" src="images/search-icon.jpg" alt="검색" />
+            </fieldset>
+          </form>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <!--menu 시작-->
+ <nav id="menu">
+        <ul>
+        	<li id="menu1" class="menu"><a href="livingroom.html">LivingRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">거실시스템</a></li>
+                	<li><a href="#">소파</a></li>
+                    <li><a href="#">암체어</a></li>
+                    <li><a href="#">테이블</a></li>
+                    <li><a href="#">캐비넷</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">시계</a></li>
+                    <li><a href="#">액자</a></li>
+                    <li><a href="#">홈 오피스</a></li>
+                    <li><a href="#">휴지통</a></li>
+                </ul>
+            </li>
+            <li id="menu2" class="menu"><a href="bedroom.html">BedRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">침실시스템</a></li>
+                	<li><a href="#">침대</a></li>
+                    <li><a href="#">매트리스</a></li>
+                    <li><a href="#">침구세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">화장대</a></li>
+                    <li><a href="#">커튼</a></li>
+                    <li><a href="#">서랍장</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">협탁</a></li>
+                </ul>
+            </li>
+            <li id="menu3" class="menu"><a href="kitchen.html">Kitchen</a>
+            	<ul class="submenu">
+                	<li><a href="#">주방시스템</a></li>
+                    <li><a href="#">냄비</a></li>
+                    <li><a href="#">그릇</a></li>
+                    <li><a href="#">접시</a></li>
+                    <li><a href="#">기타 병들</a></li>
+                    <li><a href="#">식탁세트</a></li>
+                    <li><a href="#">아일랜드</a></li>
+                    <li><a href="#">테이블보</a></li>
+                    <li><a href="#">렌지</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                </ul>
+            </li>
+            <li id="menu4" class="menu"><a href="bathroom.html">BathRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">욕실시스템</a></li>
+                    <li><a href="#">욕조</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                    <li><a href="#">타올</a></li>
+                    <li><a href="#">욕실 가운</a></li>
+                    <li><a href="#">거울</a></li>
+                    <li><a href="#">샤워 커튼</a></li>
+                    <li><a href="#">샤워기헤드</a></li>
+                    <li><a href="#">세면대</a></li>
+                    <li><a href="#">변기소품</a></li>
+                </ul>
+            </li>
+            <li id="menu5" class="menu"><a href="kidsroom.html">KidsRoom</a>
+            	<ul class="submenu">
+               		<li><a href="#">키즈시스템</a></li>
+            		<li><a href="#">텐트</a></li>
+                    <li><a href="#">놀이</a></li>
+                    <li><a href="#">오가닉제품</a></li>
+                    <li><a href="#">모빌</a></li>
+                    <li><a href="#">책상 세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">유아용침대</a></li>
+                    <li><a href="#">이층침대</a></li>
+                    <li><a href="#">안전용품</a></li>
+                </ul>
+            </li>
+            <li id="menu6" class="menu"><a href="veranda.html">Veranda</a>
+            	<ul class="submenu">
+                	<li><a href="#">정원꾸미기</a></li>
+                    <li><a href="#">휴식용가구</a></li>
+                    <li><a href="#">장식조명</a></li>
+                    <li><a href="#">바닥재</a></li>
+                    <li><a href="#">인조화초/조화</a></li>
+                    <li><a href="#">화분</a></li>
+                    <li><a href="#">드라이플라워</a></li>
+                    <li><a href="#">정원소품</a></li>  
+                    <li><a href="#">원예용품</a></li>
+                    <li><a href="#">물뿌리개</a></li>                   	
+                </ul>
+            </li>
+            <li id="menu7" class="menu"><a href="diy.html">DIY&amp;Rugs</a>
+            	<ul class="submenu">
+                	<li><a href="#">DIY재료</a></li>
+                    <li><a href="#">재봉재료</a></li>
+                    <li><a href="#">커튼재료</a></li>
+                    <li><a href="#">쿠션커버</a></li>
+                    <li><a href="#">침구커버</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">테이블커버</a></li>
+                    <li><a href="#">벽걸이 러그</a></li>
+                    <li><a href="#">바닥용 러그</a></li>
+                    <li><a href="#">콜라보레이션</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  <!--menu 끝--> 
+  
+</header>
+<!-- header 끝 --> 
+
+<!--content 시작-->
+<div id="content">
+<div id="visual">
+  <div id="diyready">
+    <div id="visualtxt">
+      <p><span>&nbsp;&nbsp;&nbsp;DIY 쿠션 만들기</span></p>
+      <h1>나만의 쿠션 커버 만들기</h1>
+      </br>
+      <p><strong>나만의 텍스타일 솔루션으로 집에 개성을 더해보세요.</strong> </br>
+        쿠션은 멋진 장식 효과를 주는 아이템이랍니다. 부드럽고 편안하면서도 </br>
+        아름다운 색상과 무늬로 분위기를 한 층 빛내주며 유니크함도 살려주죠. </br>
+        새 쿠션 커버를 마련하면 저렴하면서도 빠르게 실내 분위기를 상쾌하게 만들 수 있습니다. </br>
+        지퍼 없는 쿠션 커버를 직접 만들어서 다양한 패턴의 패브릭을 </br>
+        즐겨보는 건 어떨까요? 미터 당 두 개는 넉넉히 만들 수 있답니다. </br>
+        박음질만으로 만들기 때문에 재봉틀을 잘 다루지 못하더라도,</br>
+        또는 재봉틀 없이 손바느질로도 충분히 만들 수 있어요. 
+    </div>
+    <div id="visualtxt2">
+      <h2>준비물</h2>
+      <p> 패브릭 반 야드, 쿠션 패드, 재봉틀 또는 손바늘, 가위 </p>
+      <img src="images/diy/v1.png"/> </div>
+  </div>
+
+  </div>
+ 
+          <div id="subbox">
+
+        	<div class="subbox" id="subimg1"><a class="subboxpic" href="#"><img src="images/diy/icon1-1.jpg"></a></div>
+            <div class="subbox" id="subimg2"><a class="subboxpic" href="#"><img src="images/diy/icon1-2.jpg"></a></div>
+            <div class="subbox" id="subimg3"><a class="subboxpic" href="#"><img src="images/diy/icon1-3.jpg"></a></div>
+            <div class="subbox" id="subimg4"><a class="subboxpic" href="#"><img src="images/diy/icon1-4.jpg"></a></div>
+            <div class="subbox" id="subimg5"><a class="subboxpic" href="#"><img src="images/diy/icon1-5.jpg"></a></div>
+            <div class="subbox" id="subimg6"><a class="subboxpic" href="#"><img src="images/diy/icon1-6.jpg"></a></div>
+            <div class="subbox" id="subimg7"><a class="subboxpic" href="#"><img src="images/diy/icon1-7.jpg"></a></div>
+            <div class="subbox" id="subimg8"><a class="subboxpic" href="#"><img src="images/diy/icon1-8.jpg"></a></div>
+            <div class="subbox" id="subimg9"><a class="subboxpic" href="#"><img src="images/diy/icon1-9.jpg"></a></div>
+            <div class="subbox" id="subimg10"><a class="subboxpic" href="#"><img src="images/diy/icon1-10.jpg"></a></div>
+            
+        </div>
+  
+  <!--스크롤메뉴 시작-->
+		<div id="scrollMenu">
+			<ul class="depth2">
+					<li><a href="#">DIY재료</a></li>
+                    <li><a href="#">재봉재료</a></li>
+                    <li><a href="#">커튼재료</a></li>
+                    <li><a href="#">쿠션커버</a></li>
+                    <li><a href="#">침구커버</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">테이블커버</a></li>
+                    <li><a href="#">벽걸이 러그</a></li>
+                    <li><a href="#">바닥용 러그</a></li>
+                    <li><a href="#">콜라보레이션</a></li>
+			</ul>
+		</div>
+ <!--스크롤메뉴 끝--> 
+  
+    <div id="con1">
+      <div class="diy1">
+        <ul>
+          <li> <img src="images/diy/c1-1.png"/ alt="재봉이미지1"> </li>
+          <li><img src="images/diy/c1-2.png"/ alt="재봉이미지2"></li>
+        </ul>
+      </div>
+      <div class="diy2">
+        <ul>
+          <li class="con1txt">
+            <h2 class="diytxth2-1">재단하기</h2>
+            <p class="diytxtp-1">쿠션 사이즈에서 양쪽 시접을 1,5cm 정도씩 시접분을</br>
+              두고 잘라주세요. 뒷면은 지퍼 없이 겹치게 만들어야 하니</br>
+              열리는 부분은 여유를 주어 두 장 자릅니다.<br>
+              </br>
+            </p>
+            <h2 class="diytxth2-1">나머지 박음질로 재봉하기</h2>
+            <p class="diytxtp-1">앞지의 겉면이 보이도록 놓은 뒤 그 위로 뒷지1의 안쪽면이 보이게끔 </br>
+              앞지와 뒷지의 겉면이 서로 마주보도록 겹쳐 놓아주세요. </br>
+              뒷지1 위로 뒷지2를 마찬가지로 안쪽이 바깥으로 보이게 덮고 </br>
+              시침핀으로 고정한 뒤 시접을 1cm 남기고서 박음질해주세요. </br>
+              </br>
+            </p>
+          </li>
+          <li id="c3menu"> <img src="images/diy/c1-m.png"/ alt="재봉메뉴"></li>
+          <li class="con1txt">
+            <h2 class="diytxth2-2">뒷지 넓은 부분 말아박기</h2>
+            <p class="diytxtp-2">뒷지 두 장 모두 넓은 부분 한 쪽을 말아박기 해주세요.</br>
+              각각 0.5cm, 1cm 씩 안쪽으로 두 번 접은 후 다림질 한 다음 박음질하면</br>
+              좀 더 편하실 거예요. </br>
+              </br>
+            </p>
+            <h2 class="diytxth2-2">뒤집은 후 쿠션 솜 넣기</h2>
+            </br>
+            <p class="diytxtp-2">이제 바로 뒤집어서 솜만 넣어주면 나만의 DIY 쿠션 커버 완성!</p>
+          </li>
+        </ul>
+      </div>
+      <div class="diy3">
+        <ul>
+          <li> <img src="images/diy/c1-3.png"/ alt="재봉이미지3"> </li>
+          <li> <img src="images/diy/c1-4.png"/ alt="재봉이미지4"> </li>
+        </ul>
+      </div>
+    </div>
+    <div id="con2">
+      <div class="con2txt">
+        <h2><strong>다양한 패턴의 쿠션 커버</strong>를 만들어 멋지게 조합해봐요</h2>
+        </br>
+        <p>여러가지 무늬를 잘 조합하면 정말 멋진 인테리어가 완성됩니다. 하지만 제대로 하지 않으면 정말 보기 싫은 모습이 되곤 하죠. </br>
+          다행히도 좋은 결과를 얻을 수 있는 몇 가지 단계가 있으니 따라해보세요.</p>
+      </div>
+      <div id="con2-1">
+        <ul>
+          <li id="con2gif"><img src="images/diy/c2.gif" alt="움직이는쿠션"></li>
+          <li class="con2txt1">
+            <p> <strong> 1.색상 선택 </strong> </br>
+              먼저 맘에드는 색상의 단색 쿠션을 고르세요. </br>
+              이 색상을 기본으로 다른 패턴의 쿠션을 함께 놓아보세요. </br>
+              </br>
+              <strong>2.대담한 패턴으로 </strong></br>
+              첫 번째 쿠션은 단순하지만 대담한 패턴을 선택하셨죠? </br>
+              다음 번에는 처음 선택한 쿠션의 색상이 있는 무늬를 </br>
+              선택하세요. 물론 또 다른 보색을 추가해도 잘 어울립니다. </br>
+              </br>
+              <strong> 3.약간의 디테일을 더하면</strong> </br>
+              세 번째 무늬 패턴은 좀 더 촘촘하고, 작고, 디테일한 것을 </br>
+              사용해도 좋아요. </br>
+              무늬의 크기가 다르면 서로 배치되는 것이 아니라 오히려 </br>
+              서로를 보완해주니까요. </br>
+              단, 첫 번째 쿠션의 기본 색상이 포함된 것으로 골라야 해요. </br>
+              반드시 따라야 할 규칙이 아니라 가이드일 뿐이랍니다. </br>
+              그러니 따라해보고, 다른 것도 시도하며 즐겁게 꾸며보세요. </br>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--content 끝--> 
+  
+  <!--footer 시작-->
+  <footer id="footer">
+    <div id="fdiv"></div>
+    <img id="flogo" src="images/footer-logo.png" alt="로고 이미지">
+    <div id="txt">경기도 성남시 분당구 돌마로 73 (우방코아 7F) 두드림컴퓨터아트학원 스마트웹콘텐츠반 막내온탑조 임고운 이진경 윤수정 윤효철 <br/>
+      <br/>
+      본 사이트의 모든 콘텐츠는 저작권법의 보호를 받는 바, 무단 전재, 복사, 배포 등을 금합니다.<br/>
+      COPYRIGHT 2015 LIVING IN FURNITURE ALL RIGHTS RESERVED.</div>
+  </footer>
+  <!--footer 끝--> 
+  
+</div>
+<!--wrap 끝-->
+
+<div id="backband"></div>
+</body>
+</html>

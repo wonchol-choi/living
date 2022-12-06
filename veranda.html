@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/veranda.css" />
+<link rel="stylesheet" href="js/jquery-ui.min.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/veranda.js"></script>
+</head>
+
+<body>
+
+<!--wrap 시작-->
+
+<div id="wrap"> 
+  
+  <!-- header 시작 -->
+  <header id="header">
+    <div id="logo"><a href="index.html"><img src="images/logo.png" alt="로고"/></a></div>
+    <div id="topMenu">
+      <ul>
+        <li>
+          <ul class="util1">
+            <li><a href="#">login</a></li>
+            <li><a href="#">join</a></li>
+            <li><a href="#">service center</a></li>
+          </ul>
+          <ul class="util2">
+            <li><a href="#">contact</a></li>
+            <li><a href="#">sitemap</a></li>
+          </ul>
+          <ul class="util3">
+            <form name="sform" method="get" id="sform">
+              <fieldset>
+                <legend class="skip">검색</legend>
+                <label for="sbox" class="skip"></label>
+                <!--for 값과 아래 인풋의 id명이 같아야 이 글씨를 눌러도 인풋요소(커서) 활성화 됨(모바일 때문에)-->
+                <input type="search" id="sbox" placeholder="search" />
+                <input type="image" class="btn" src="images/search-icon.jpg" alt="검색" />
+              </fieldset>
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    <!--menu 시작-->
+ <nav id="menu">
+        <ul>
+        	<li id="menu1" class="menu"><a href="livingroom.html">LivingRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">거실시스템</a></li>
+                	<li><a href="#">소파</a></li>
+                    <li><a href="#">암체어</a></li>
+                    <li><a href="#">테이블</a></li>
+                    <li><a href="#">캐비넷</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">시계</a></li>
+                    <li><a href="#">액자</a></li>
+                    <li><a href="#">홈 오피스</a></li>
+                    <li><a href="#">휴지통</a></li>
+                </ul>
+            </li>
+            <li id="menu2" class="menu"><a href="bedroom.html">BedRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">침실시스템</a></li>
+                	<li><a href="#">침대</a></li>
+                    <li><a href="#">매트리스</a></li>
+                    <li><a href="#">침구세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">화장대</a></li>
+                    <li><a href="#">커튼</a></li>
+                    <li><a href="#">서랍장</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">협탁</a></li>
+                </ul>
+            </li>
+            <li id="menu3" class="menu"><a href="kitchen.html">Kitchen</a>
+            	<ul class="submenu">
+                	<li><a href="#">주방시스템</a></li>
+                    <li><a href="#">냄비</a></li>
+                    <li><a href="#">그릇</a></li>
+                    <li><a href="#">접시</a></li>
+                    <li><a href="#">기타 병들</a></li>
+                    <li><a href="#">식탁세트</a></li>
+                    <li><a href="#">아일랜드</a></li>
+                    <li><a href="#">테이블보</a></li>
+                    <li><a href="#">렌지</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                </ul>
+            </li>
+            <li id="menu4" class="menu"><a href="bathroom.html">BathRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">욕실시스템</a></li>
+                    <li><a href="#">욕조</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                    <li><a href="#">타올</a></li>
+                    <li><a href="#">욕실 가운</a></li>
+                    <li><a href="#">거울</a></li>
+                    <li><a href="#">샤워 커튼</a></li>
+                    <li><a href="#">샤워기헤드</a></li>
+                    <li><a href="#">세면대</a></li>
+                    <li><a href="#">변기소품</a></li>
+                </ul>
+            </li>
+            <li id="menu5" class="menu"><a href="kidsroom.html">KidsRoom</a>
+            	<ul class="submenu">
+               		<li><a href="#">키즈시스템</a></li>
+            		<li><a href="#">텐트</a></li>
+                    <li><a href="#">놀이</a></li>
+                    <li><a href="#">오가닉제품</a></li>
+                    <li><a href="#">모빌</a></li>
+                    <li><a href="#">책상 세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">유아용침대</a></li>
+                    <li><a href="#">이층침대</a></li>
+                    <li><a href="#">안전용품</a></li>
+                </ul>
+            </li>
+            <li id="menu6" class="menu"><a href="veranda.html">Veranda</a>
+            	<ul class="submenu">
+                	<li><a href="#">정원꾸미기</a></li>
+                    <li><a href="#">휴식용가구</a></li>
+                    <li><a href="#">장식조명</a></li>
+                    <li><a href="#">바닥재</a></li>
+                    <li><a href="#">인조화초/조화</a></li>
+                    <li><a href="#">화분</a></li>
+                    <li><a href="#">드라이플라워</a></li>
+                    <li><a href="#">정원소품</a></li>  
+                    <li><a href="#">원예용품</a></li>
+                    <li><a href="#">물뿌리개</a></li>                   	
+                </ul>
+            </li>
+            <li id="menu7" class="menu"><a href="diy.html">DIY&amp;Rugs</a>
+            	<ul class="submenu">
+                	<li><a href="#">DIY재료</a></li>
+                    <li><a href="#">재봉재료</a></li>
+                    <li><a href="#">커튼재료</a></li>
+                    <li><a href="#">쿠션커버</a></li>
+                    <li><a href="#">침구커버</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">테이블커버</a></li>
+                    <li><a href="#">벽걸이 러그</a></li>
+                    <li><a href="#">바닥용 러그</a></li>
+                    <li><a href="#">콜라보레이션</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!--menu 끝--> 
+    
+  </header>
+  <!-- header 끝 --> 
+  
+  <!--content 시작-->
+  <div id="content">
+  	<div id="con1">
+      <div id="con1txt">
+        <h1>VERANDA</h1>
+        <br/>
+        <p><strong>이런 베란다, 어때요?</strong></p>
+        <h2>나만의 화사한 베란다 만들기 가상 프로젝트</h2>
+        <div id="con1pic"><img src="images/veranda/c1-0.jpg"/></div>
+        <br/>
+
+        <p>베란다는 마당을 가질 여유가 없는 사람들에게 소중한 휴식처가 되어주는 집안의 야외공간이죠.<br/>
+탁 트여있는 정원이나 텃밭에 비하면 공간은 협소하지만, 화분과 테이블 그리고 아기자기한 벽장식만으로도 감각적인 느낌의 베란다를 만들 수 있어요.<br/>
+준비한 제품 사진들로 나만의 개성 넘치는 베란다를 꾸며보는 건 어떨까요?<br/>
+<span>좌우 아이템들을<strong> 드래그 앤 드롭</strong>하여 배치해보세요.</span><br/>
+        </p>
+      </div>
+    </div>
+<!--비쥬얼 시작-->
+   <div id="visual">
+     <!-- 왼쪽드래그메뉴 시작-->
+     <div id="drag" class="drag_left">
+      	<div class="Dbox1"><img src="images/veranda/c1-1.png" alt="전등1" width="43px" height="75px"></div>
+        <div class="Dbox2"><img src="images/veranda/c1-2.png" alt="전등2" width="38px" height="75px"></div>
+        <div class="Dbox3"><img src="images/veranda/c1-3.png" alt="전등3" width="61px" height="75px"></div>
+        <div class="Dbox4"><img src="images/veranda/c1-4.png" alt="전등4" width="23px" height="75px"></div>
+        <div class="Dbox5"><img src="images/veranda/c1-5.png" alt="전등5" width="24px" height="75px"></div>
+        <div class="Dbox6"><img src="images/veranda/c1-6.png" alt="양은양동이"  width="50px" height="50px"></div>
+        <div class="Dbox7"><img src="images/veranda/c1-7.png" alt="둥근모양화분" width="54px" height="60px"></div>
+        <div class="Dbox8"><img src="images/veranda/c1-8.png" alt="양은조리개" width="50px" height="50px"></div>
+        <div class="Dbox9"><img src="images/veranda/c1-9.png" alt="롱다리화분" width="49px" height="75px"></div>
+        <div class="Dbox10"><img src="images/veranda/c1-10.png" alt="서양난" width="38px" height="75px"></div>
+     </div>
+     <!-- 왼쪽드래그메뉴 끝-->
+     
+     <!--스크롤메뉴 시작-->
+		<div id="scrollMenu">
+			<ul class="depth2">
+					<li><a href="#">정원꾸미기</a></li>
+                    <li><a href="#">휴식용가구</a></li>
+                    <li><a href="#">장식조명</a></li>
+                    <li><a href="#">바닥재</a></li>
+                    <li><a href="#">인조화초/조화</a></li>
+                    <li><a href="#">화분</a></li>
+                    <li><a href="#">드라이플라워</a></li>
+                    <li><a href="#">정원소품</a></li>  
+                    <li><a href="#">원예용품</a></li>
+                    <li><a href="#">물뿌리개</a></li>    
+			</ul>
+		</div>
+ <!--스크롤메뉴 끝-->  
+     
+     <!-- view화면 시작-->
+     <div  id="drag_middle"></div>
+     <!-- view화면 끝-->
+     
+     <!-- 오른쪽드래그메뉴 시작-->
+      <div id="drag" class="drag_right">
+      	<div class="Dbox11"><img src="images/veranda/c1-11.png" alt="화분4" width="77px" height="27px"></div>
+        <div class="Dbox12"><img src="images/veranda/c1-12.png" alt="화분2" width="77px" height="75px"></div>
+        <div class="Dbox13"><img src="images/veranda/c1-13.png" alt="철재의자" width="55px" height="70px"></div>
+        <div class="Dbox14"><img src="images/veranda/c1-14.png" alt="철재의자2,탁자" width="60px" height="43px"></div>
+        <div class="Dbox15"><img src="images/veranda/c1-15.png" alt="하얀쿠션의자" width="67px" height="60px"></div>
+        <div class="Dbox16"><img src="images/veranda/c1-16.png" alt="나무의자와탁자" width="71px" height="60px"></div>
+        <div class="Dbox17"><img src="images/veranda/c1-17.png" alt="철재선반1" width="27px" height="65px"></div>
+        <div class="Dbox18"><img src="images/veranda/c1-18.png" alt="철재선반2" width="29px" height="65px"></div>
+        <div class="Dbox19"><img src="images/veranda/c1-19.png" alt="화분선반1" width="39px" height="60px"></div>
+        <div class="Dbox20"><img src="images/veranda/c1-20.png" alt="화분선반2" width="31px" height="60px"></div>
+      </div>
+     <!-- 오른쪽드래그메뉴 끝-->
+    </div>
+<!--비쥬얼 끝-->    
+    <div id="con2">
+      <div id="con2txt">
+        <h2>따뜻한 햇살을 즐기세요</h2>
+        <br/>
+        <p>우리는 항상 따뜻하고 기분 좋은 날씨를 꿈꿉니다. 다양한 제품을 활용해 실제 <strong>기온과 상관없이 언제라도 편안하게 야외활동</strong>을 계획해보세요.<br/>
+따뜻하고 햇살 가득한 봄이 다가오는 계절이 되면 더 좋지만 차갑고 축축한 계절이라도 실내에 아름다운 식물과 화분이 있다면<br/>
+<strong>언제나 여름 같은 기분</strong>을 느낄 수 있습니다. 식물은 평화로운 느낌을 주며, 식물을 가꾸며 현재에 감사하고 여유롭게 사는 법을 배울 수 있습니다.<br/>
+화분 및 식물과 함께 가정을 자연적인 느낌의 색과 질감으로 새롭게 꾸며보세요.<br/></p>
+      </div>
+      <div id="con2pic">
+      	<ul>
+        	<li><br/>
+        <h2>빌라형 실내정원</h2></li>
+        	<li><img src="images/veranda/c2-4.jpg" alt="베란다"/></li>
+            <li><img src="images/veranda/c2-3.jpg" alt="베란다"/></li>
+            <li><br/>
+        <h2>아파트형 실내정원</h2></li>
+            <li><img src="images/veranda/c2-2.jpg" alt="베란다"/></li>
+            <li><br/>
+        <h2>전원주택형 실내정원</h2></li>
+            <li><img src="images/veranda/c2-1.jpg" alt="베란다"/></li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+  <!--content 끝--> 
+  
+  <!--footer 시작-->
+  <footer id="footer">
+    <div id="fdiv"></div>
+    <img id="flogo" src="images/footer-logo.png" alt="로고 이미지">
+    <div id="txt">경기도 성남시 분당구 돌마로 73 (우방코아 7F) 두드림컴퓨터아트학원 스마트웹콘텐츠반 막내온탑조 임고운 이진경 윤수정 윤효철 <br/>
+      <br/>
+      본 사이트의 모든 콘텐츠는 저작권법의 보호를 받는 바, 무단 전재, 복사, 배포 등을 금합니다.<br/>
+      COPYRIGHT 2015 LIVING IN FURNITURE ALL RIGHTS RESERVED.</div>
+  </footer>
+  <!--footer 끝--> 
+  
+</div>
+<!--wrap 끝-->
+
+<div id="backband">
+</div>
+</body>
+</html>

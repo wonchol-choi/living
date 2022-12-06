@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/kidsroom.css" />
+<link rel="stylesheet" href="js/jquery-ui.min.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/kidsroom.js"></script>
+</head>
+
+<body>
+
+<!--wrap 시작-->
+<div id="wrap"> 
+  
+  <!-- header 시작 -->
+  <header id="header">
+    <div id="logo"><a href="index.html"><img src="images/logo.png" alt="로고"/></a></div>
+    <div id="topMenu">
+      <ul>
+        <li>
+          <ul class="util1">
+            <li><a href="#">login</a></li>
+            <li><a href="#">join</a></li>
+            <li><a href="#">service center</a></li>
+          </ul>
+          <ul class="util2">
+            <li><a href="#">contact</a></li>
+            <li><a href="#">sitemap</a></li>
+          </ul>
+          <ul class="util3">
+            <form name="sform" method="get" id="sform">
+              <fieldset>
+                <legend class="skip">검색</legend>
+                <label for="sbox" class="skip"></label>
+                <!--for 값과 아래 인풋의 id명이 같아야 이 글씨를 눌러도 인풋요소(커서) 활성화 됨(모바일 때문에)-->
+                <input type="search" id="sbox" placeholder="search" />
+                <input type="image" class="btn" src="images/search-icon.jpg" alt="검색" />
+              </fieldset>
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    <!--menu 시작-->
+  <nav id="menu">
+        <ul>
+        	<li id="menu1" class="menu"><a href="livingroom.html">LivingRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">거실시스템</a></li>
+                	<li><a href="#">소파</a></li>
+                    <li><a href="#">암체어</a></li>
+                    <li><a href="#">테이블</a></li>
+                    <li><a href="#">캐비넷</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">시계</a></li>
+                    <li><a href="#">액자</a></li>
+                    <li><a href="#">홈 오피스</a></li>
+                    <li><a href="#">휴지통</a></li>
+                </ul>
+            </li>
+            <li id="menu2" class="menu"><a href="bedroom.html">BedRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">침실시스템</a></li>
+                	<li><a href="#">침대</a></li>
+                    <li><a href="#">매트리스</a></li>
+                    <li><a href="#">침구세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">화장대</a></li>
+                    <li><a href="#">커튼</a></li>
+                    <li><a href="#">서랍장</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">협탁</a></li>
+                </ul>
+            </li>
+            <li id="menu3" class="menu"><a href="kitchen.html">Kitchen</a>
+            	<ul class="submenu">
+                	<li><a href="#">주방시스템</a></li>
+                    <li><a href="#">냄비</a></li>
+                    <li><a href="#">그릇</a></li>
+                    <li><a href="#">접시</a></li>
+                    <li><a href="#">기타 병들</a></li>
+                    <li><a href="#">식탁세트</a></li>
+                    <li><a href="#">아일랜드</a></li>
+                    <li><a href="#">테이블보</a></li>
+                    <li><a href="#">렌지</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                </ul>
+            </li>
+            <li id="menu4" class="menu"><a href="bathroom.html">BathRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">욕실시스템</a></li>
+                    <li><a href="#">욕조</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                    <li><a href="#">타올</a></li>
+                    <li><a href="#">욕실 가운</a></li>
+                    <li><a href="#">거울</a></li>
+                    <li><a href="#">샤워 커튼</a></li>
+                    <li><a href="#">샤워기헤드</a></li>
+                    <li><a href="#">세면대</a></li>
+                    <li><a href="#">변기소품</a></li>
+                </ul>
+            </li>
+            <li id="menu5" class="menu"><a href="kidsroom.html">KidsRoom</a>
+            	<ul class="submenu">
+               		<li><a href="#">키즈시스템</a></li>
+            		<li><a href="#">텐트</a></li>
+                    <li><a href="#">놀이</a></li>
+                    <li><a href="#">오가닉제품</a></li>
+                    <li><a href="#">모빌</a></li>
+                    <li><a href="#">책상 세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">유아용침대</a></li>
+                    <li><a href="#">이층침대</a></li>
+                    <li><a href="#">안전용품</a></li>
+                </ul>
+            </li>
+            <li id="menu6" class="menu"><a href="veranda.html">Veranda</a>
+            	<ul class="submenu">
+                	<li><a href="#">정원꾸미기</a></li>
+                    <li><a href="#">휴식용가구</a></li>
+                    <li><a href="#">장식조명</a></li>
+                    <li><a href="#">바닥재</a></li>
+                    <li><a href="#">인조화초/조화</a></li>
+                    <li><a href="#">화분</a></li>
+                    <li><a href="#">드라이플라워</a></li>
+                    <li><a href="#">정원소품</a></li>  
+                    <li><a href="#">원예용품</a></li>
+                    <li><a href="#">물뿌리개</a></li>                   	
+                </ul>
+            </li>
+            <li id="menu7" class="menu"><a href="diy.html">DIY&amp;Rugs</a>
+            	<ul class="submenu">
+                	<li><a href="#">DIY재료</a></li>
+                    <li><a href="#">재봉재료</a></li>
+                    <li><a href="#">커튼재료</a></li>
+                    <li><a href="#">쿠션커버</a></li>
+                    <li><a href="#">침구커버</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">테이블커버</a></li>
+                    <li><a href="#">벽걸이 러그</a></li>
+                    <li><a href="#">바닥용 러그</a></li>
+                    <li><a href="#">콜라보레이션</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!--menu 끝--> 
+    
+  </header>
+  <!-- header 끝 --> 
+  <!--content 시작-->
+<div id="content">
+  <!-- visual 시작 -->   
+<div id="visual">
+	<div class="kids_v1">
+        <div id="text1" class="kids_text">
+            <h1>베이비<br/>0-2세</h1><br/>
+            <h2>온몸으로 세상을 배워가요.<br/>
+            집안 전체에 안전장치가 필요해요.<br/>
+            소근육 운동능력이 발달하고<br/>
+            역할놀이가 중요해지며 일상생활이<br/>
+            그 소재가 되죠.<br/></h2>
+        </div>
+    </div>
+    <div class="kids_v2">
+    	<div id="text2"  class="kids_text">
+        <h1>토들러<br/>3-7세</h1><br/>
+            <h2>직접 참여하는 일이 더 중요해지며 보다<br/>
+			사실적이고 세부 묘사가 많은 그림을 그려요.<br/>
+			자신들만의 언어를 사용하고<br/>
+			놀이와 모험의 규칙을 정해요.<br/></h2>
+        </div>
+    </div>
+    <div class="kids_v3">
+    <div id="text3" class="kids_text">
+        <h1>키즈<br/>8-13세</h1><br/>
+            <h2>
+            자신에 대해 표현하고<br/>
+다른 사람을 인정하기 시작해요.<br/>
+스스로의 힘으로 해내는 것도 중요하지만<br/>
+부모님의 지원도 필요해요.<br/>
+또래에 속하고 더 많은 자유를<br/>
+얻는 것이 최대 관심사예요.<br/>
+            
+
+
+
+            <br/></h2>
+        </div>
+    </div>
+ </div> 
+  <!-- visual 끝 --> 
+ 
+ 
+     <div id="subbox">
+        	<div class="subbox" id="subimg1"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-1.jpg"></a></div>
+            <div class="subbox" id="subimg2"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-2.jpg"></a></div>
+            <div class="subbox" id="subimg3"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-3.jpg"></a></div>
+            <div class="subbox" id="subimg4"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-4.jpg"></a></div>
+            <div class="subbox" id="subimg5"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-5.jpg"></a></div>
+            <div class="subbox" id="subimg6"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-6.jpg"></a></div>
+            <div class="subbox" id="subimg7"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-7.jpg"></a></div>
+            <div class="subbox" id="subimg8"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-8.jpg"></a></div>
+            <div class="subbox" id="subimg9"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-9.jpg"></a></div>
+            <div class="subbox" id="subimg10"><a class="subboxpic" href="#"><img src="images/kidsroom/icon1-10.jpg"></a></div>
+        </div>
+        
+ <!--스크롤메뉴 시작-->
+		<div id="scrollMenu">
+			<ul class="depth2">
+					<li><a href="#">키즈시스템</a></li>
+            		<li><a href="#">텐트</a></li>
+                    <li><a href="#">놀이</a></li>
+                    <li><a href="#">오가닉제품</a></li>
+                    <li><a href="#">모빌</a></li>
+                    <li><a href="#">책상 세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">유아용침대</a></li>
+                    <li><a href="#">이층침대</a></li>
+                    <li><a href="#">안전용품</a></li>
+			</ul>
+		</div>
+ <!--스크롤메뉴 끝-->  
+    
+    <div id="con1">
+      <div class="video-container">
+        <iframe width="1150" height="372" src="https://www.youtube.com/embed/ht51-ozrAXE" frameborder="0" allowfullscreen title="아이들의 행복을 위하여"></iframe>
+      </div>
+      <div id="con1txt">
+        <h1>KIDSROOM</h1>
+        </br>
+        </br>
+        <h2>세상에서 가장 소중한 아이들에게</h2>
+        </br>
+        </br>
+        <p>아이들은 스스로의 능력을 개발하고 세상을 탐구하며 자립심을 키워나갑니다. 집에서도 이런 일이 가능하다면 아이들은 훨씬 더 멋지게 성장하겠죠?</br>
+          <strong>아이 방 컬러는 아이의 의견을 반영한 색깔과 패턴으로 구성</strong>하면 아이가 더욱 즐겁고 행복하게 지낼 수 있습니다.</br>
+          컬러테라피에 따르면 블루컬러는 집중력을 높여주고, 그린컬러는 아이의 독립심과 실천력을 향상시킨다고 합니다.</br>
+          핑크컬러는 침착함과 자제력을 주고 편안하게 하여 스트레스 해소에 도움을 준다고 합니다.</br>
+          </br>
+          아이들은 <strong>거울을 적극 활용성장 속도가 빠르므로 그에 대응할 수 있게 가변적으로 꾸며야</strong> 합니다.</br>
+          아이의 성장에 맞추어 색채와 마감재, 가구 등의 부분적 보수를 통해서 분위기를 바꾸어 주는 것이 좋아요.</br>
+          아이를 집으로 데려오는 날부터 아이가 집을 떠날 때까지 우리 아이가 가장 행복하게 지낼 수 있는 놀이터를 집 안에 만들어주세요. </p>
+      </div>
+    </div>
+    <div id="con2">
+      <div id="con2pic1">
+        <div id="con2txt1">
+          <h2>AGE </h2>
+          </br>
+          <h1 class="con2txth1">지금 우리 아이에게 필요한 것은 무엇일까요?</h1>
+          <p class="con2txtp">우리 아이가 자라는 집은 상황에 따라 자유롭게 바꿀 수 있고</br>
+            여러 기능을 수행할 수 있어야 합니다.</br>
+            홈퍼니싱 솔루션으로 아이와 가족 모두를 위한 공간을 만들어보세요.</br>
+          </p>
+        </div>
+        <div id="con2txt2">
+          <h1 class="con2txth1">나이에 따른<br>
+            성장과 학습</h1>
+          </br>
+          <p class="con2txt2p">어린이는 <strong>학습과 발달에 대한 잠재력</strong>을 가지고 태어납니다.</br>
+            또한 단계적으로 발달하고 성장하기 때문에 집에서의 요구와 활동이</br>
+            계속 달라질 수 밖에 없죠.</br>
+            </br>
+            특히<strong> 태어나는 순간부터 일곱 살</strong>까지가 가장 중요한 시기입니다.</br>
+            이때 바로 앞으로의 학습과 발달에 필요한 기반이 만들어지기 때문이죠.</br>
+            이후에는 아이가 배운 것을 직접 시험해보고,연습하고, 발달시킬 뿐만 아니라
+            새로운 기술도 습득하게 되죠. </br>
+            </br>
+            현실적인 솔루션을 제시하려면 <strong>나이대별로 아이들의 요구 및 능력</strong>과</br>
+            관련된 더 많은 정보를 수집하고,</br>
+            아이들의 요구와 희망, 꿈이 어떻게 변하는지 살펴보아야 합니다. </p>
+        </div>
+      </div>
+    </div>
+    <div id="con3">
+      <div class="animation_canvas1">
+        <ul class="con3-1-panel">
+          <li class="first"><img src="images/kidsroom/c3-1-0.jpg"/></li>
+          <li><img src="images/kidsroom/c3-1-2.jpg"/></li>
+          <li><img src="images/kidsroom/c3-1-3.jpg"/></li>
+          <li><img src="images/kidsroom/c3-1-4.jpg"/></li>
+        </ul>
+      </div>
+      <div class="animation_canvas2">
+        <ul class="con3-2-panel">
+          <li class="second"> <img src="images/kidsroom/c3-2-0.jpg"/></li>
+          <li> <img src="images/kidsroom/c3-2-2.jpg"/></li>
+          <li> <img src="images/kidsroom/c3-2-3.jpg"/></li>
+          <li> <img src="images/kidsroom/c3-2-4.jpg"/></li>
+        </ul>
+      </div>
+      <div class="animation_canvas3">
+        <ul class="con3-3-panel">
+          <li class="third"><img src="images/kidsroom/c3-3-0.jpg"/> </li>
+          <li> <img src="images/kidsroom/c3-3-2.jpg"/> </li>
+          <li> <img src="images/kidsroom/c3-3-3.jpg"/> </li>
+          <li> <img src="images/kidsroom/c3-3-4.jpg"/> </li>
+        </ul>
+      </div>
+      <div id="con3txt">
+        <ul>
+          <li>
+            <h2>베이비(0~2세)</h2>
+            </br>
+            <p>집은 아이와 함께 하는 특별한 순간을 마음껏</br>
+              누릴 수 있는 공간이 되어야 합니다.</br>
+              그래서 우리는 유아용가구부터 장난감까지</br>
+              모든 제품을 가장 엄격한 기준으로 검사하고 있습니다.</br>
+              이제 안심하고 가장 아늑한 아기방을 꾸려보세요. </p>
+            </br>
+          </li>
+          <li>
+            <h2>토들러(3~7세)</h2>
+            </br>
+            <p>아이는 놀이를 통해 배우고 성장합니다. </br>
+              저희 제품은 봉제완구부터 어린이 가구까지 전 제품이</br>
+              상상력을 자극하고 새로운 세상을 탐구할 수 있도록</br>
+              디자인되었습니다. 집이야말로 상상력을 키울 수 있는</br>
+              가장 좋은 공간이 아닐까요? </p>
+            </br>
+          </li>
+          <li>
+            <h2>키즈(8~13세)</h2>
+            </br>
+            <p>아이만의 공간을 만들어주세요. </br>
+              이 때가 되면 아이들은 스스로의 정체성을 찾고 </br>
+              세상에서 자신의 자리를 만들어갑니다. </br>
+              우리 아이만의 개성을 담아서 아이방을 멋지게 꾸며보세요. </br>
+              아이들은 내가 꿈꾸는 방을 부모님께 보여주세요.</p>
+            </br>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--content 끝--> 
+  
+  <!--footer 시작-->
+  <footer id="footer">
+    <div id="fdiv"></div>
+    <img id="flogo" src="images/footer-logo.png" alt="로고 이미지">
+    <div id="txt">경기도 성남시 분당구 돌마로 73 (우방코아 7F) 두드림컴퓨터아트학원 스마트웹콘텐츠반 막내온탑조 임고운 이진경 윤수정 윤효철 <br/>
+      <br/>
+      본 사이트의 모든 콘텐츠는 저작권법의 보호를 받는 바, 무단 전재, 복사, 배포 등을 금합니다.<br/>
+      COPYRIGHT 2015 LIVING IN FURNITURE ALL RIGHTS RESERVED.</div>
+  </footer>
+  <!--footer 끝--> 
+  
+</div>
+<!--wrap 끝-->
+
+<div id="backband"></div>
+</body>
+</html>

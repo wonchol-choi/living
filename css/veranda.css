@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+div, header, nav, footer{
+	 /*border:1px solid rgba(0,0,0,1.00);*/
+}
+ 
+#wrap{position:relative; width:1190px;  background-color:#fff; margin:0 auto;}
+
+/*헤더스타일*/
+#header{position:relative; width:100%; height:220px; margin:30px 0 20px 0;}
+#logo{
+			float:left;
+			}
+			
+#topMenu{
+					float:right;
+					margin-top:20px;
+					
+					}
+.util2 {
+					float:left;	
+					}
+
+.util3 {
+					float:right;	
+					}
+
+.util1, .util2 {
+			font-size : 0.9em; 
+			}
+
+
+.util1 li{ margin-left:80px; display:inline; }
+.util1 li a{font: 1em "Arial",serif; color:#909090;}
+.util1 li a:hover{color:#222;}
+
+.util2 li{margin-left:20px; display:inline;  padding-left:20px;}
+.util2 li a{font: 1em "Gill Sans MT",Arial;}
+
+#sform{float:right;}
+
+
+			
+/*메뉴스타일*/
+				
+#menu, menu>ul {position:relative; left:0;}
+	
+	#menu>ul>li>a{font: bold 0.8em "Arial",serif;}
+	
+	.mborder{border-bottom:3px solid #000; color:#000;}
+	
+	#menu>ul>li>a:hover {border-bottom:3px solid #000; color:#000;}
+	
+	#menu a{display:block; margin:0 15px;}
+	#menu li{position:relative; float:left;}
+	
+	#menu>ul{position:absolute; width:1000px; top:95px; left:15px;}
+	#menu>ul>li>ul{position:absolute; width:1000px; top:25px;}
+	
+	#menu ul li { display: block; float: left;}
+	
+	.submenu ul { position:relative; float:left;  height:30px;}
+	.submenu li{display:block;}
+	.submenu li>a{font-size:0.7em;}
+
+/* 메뉴 스타일 끝 */
+
+
+/*콘텐츠 영역 시작*/
+#content{position:relative; padding-bottom:35px; top:-70px; }
+
+#scrollMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(54, 54, 54, 0.7);
+	z-index: 10;
+}
+.depth2 {
+	margin-left: 22%;
+}
+.depth2 li {
+	float: left;
+	margin-left: 3%;
+	padding: 0 5px;
+	color: #fff;
+}
+.depth2s {
+	background-color:#d84661;
+	height: 30px;
+}
+.depth2 li a {
+	font-size: 0.8em;
+	color: #fff;
+}
+.depth2 a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+
+/*비주얼 시작*/
+#visual{ width:1150px; margin:0 auto; margin-bottom:450px;}
+
+.drag_left { float:left;
+			 width:160px;}
+			 
+.drag_left>div { float:left; 
+				 width:77px; 
+				 height:77px;
+				 text-align: center;
+				 }
+				 
+.Dbox6>img, .Dbox7>img, .Dbox8>img, .Dbox15>img, .Dbox19>img, .Dbox20>img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;}
+
+
+.Dbox11>img, .Dbox14>img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;}
+
+.Dbox13>img, .Dbox16>img, .Dbox17>img, .Dbox18>img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;}
+
+
+.Dbox1 { border-left:2px solid #a1a1a1;
+		 border-top:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;}
+		 
+.Dbox2 { border-left:2px solid #a1a1a1;
+		 border-top:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;
+		 border-right:2px solid #a1a1a1;}
+		 
+.Dbox3 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;}
+
+.Dbox4{ border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;
+		 border-right:2px solid #a1a1a1;}
+
+.Dbox5 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;}
+
+.Dbox6 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;
+		 border-right:2px solid #a1a1a1;}
+
+.Dbox7 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;}
+
+.Dbox8 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;
+		 border-right:2px solid #a1a1a1;}
+
+.Dbox9 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;}
+
+.Dbox10 { border-left:2px solid #a1a1a1;
+		 border-bottom:2px solid #a1a1a1;
+		 border-right:2px solid #a1a1a1;}
+		 
+.Dbox11 { border-left:2px solid #a1a1a1;
+		  border-top:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;}
+
+.Dbox12 { border-left:2px solid #a1a1a1;
+		  border-top:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;
+		  border-right:2px solid #a1a1a1;}
+.Dbox13 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;}
+
+.Dbox14 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;
+		  border-right:2px solid #a1a1a1;}
+
+.Dbox15 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;}
+
+.Dbox16 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;
+		  border-right:2px solid #a1a1a1;}
+
+.Dbox17 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;}
+
+.Dbox18 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;
+		  border-right:2px solid #a1a1a1;}
+
+.Dbox19 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;}
+
+.Dbox20 { border-left:2px solid #a1a1a1;
+		  border-bottom:2px solid #a1a1a1;
+		  border-right:2px solid #a1a1a1;}
+		 
+#drag_middle { float:left; width:820px; height:407px; background-image:							url(../images/veranda/c1-bg.jpg); z-index:-1;}
+
+.drag_right { float:right;
+			  width:160px;}
+.drag_right>div { float:left; 
+				 width:77px; 
+				 height:77px;}
+#drag>div { position:relative; margin:auto;}
+#drag>div>img { position:relative;}
+
+/*비주얼 끝*/
+
+
+/*중간메뉴 시작*/
+#subbox{position:relative; padding:0 20px;}
+
+.subbox{position:absolute;}
+
+#subimg2{left:135.5px;} #subimg3{left:251px;} #subimg4{left:366.5px;} #subimg5{left:482px;} #subimg6{left:597.5px;}
+#subimg7{left:713px;} #subimg8{left:828.5px;} #subimg9{left:944px;} #subimg10{left:1059.5px;}
+
+/*중간메뉴 끝*/
+
+#content{border-bottom:1px solid #898989;}
+
+/*콘텐츠1 시작*/
+#con1txt{ text-align:left; padding:55px;}
+#con1txt>h1{font: bold 1.5em "BernhardFashion BT",Arial;}
+
+#con1txt>p{font-size:0.75em;}
+#con1txt>p>span>strong{font-weight:bold; color:#4b9ec0;}
+#con1txt>p>span{background-color:#000f16; color:#fff;}
+
+#con1pic{position:absolute; left:650px; top:110px;}
+#con1{content:""; clear:both; display:block;}
+/*콘텐츠1 끝*/
+
+/*콘텐츠2 시작*/
+#con2{  padding-left:10px;}
+#con2txt{ text-align:left; padding-left:55px;}
+#con2txt>h1{font: bold 1.5em "BernhardFashion BT",Arial; padding:10px;}
+
+#con2txt>p{font-size:0.75em;}
+#con2txt>p>strong{font-weight:bold; color:#4b9ec0;}
+#con2pic ul li{ padding-bottom:5px; padding-left:10px;}
+
+/*콘텐츠2 끝*/
+
+
+/*콘텐츠 끝*/
+
+
+#footer{position:relative; width:100%; height:170px; margin-bottom:30px; background:#4f4f4f;}
+#fdiv{position:absolute; background:#c9c9c9; width:100%; height:40px;}
+#flogo{position: relative; top:75px; left:55px;}
+#txt{position:absolute; top:75px; left: 300px; display:inline; color:#fff; font-size:0.7em;}
+
+
+#backband{ width:100%;
+					height:400px;
+					position:fixed;
+					top:300px;
+					background-color:#dedcdd;
+					z-index:-10;
+					}
+
+
+

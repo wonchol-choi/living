@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+a { text-decoration:none; color:#222; }
+a:hover { color:#666; }
+
+h1,h2,h3,h4,h5,h6 { font-size:100%; }
+address,strong{font-style:normal; font-weight:normal;}
+
+@font-face {font-family:"BernhardFashion BT";
+    src: url("../font/BernhardFashionBT.eot"); /* IE9*/
+    src: url("../font/BernhardFashionBT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/BernhardFashionBT.woff") format("woff"), /* chrome、firefox */
+	url("../font/BernhardFashionBT.woff") format('woff2'),
+    url("../font/BernhardFashionBT.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../font/BernhardFashionBT.svg#BernhardFashion BT") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family:"Arial";
+	src:url("../font/Arial.eot");
+	src:url("../font/Arial.eot?#iefix") format("embedded-opentype"),
+	url("../font/Arial.woff") format("woff"),
+	url("../font/Arial.ttf") format("truetype"),
+	url("../font/Arial.svg#Arial") format("svg");
+	}
+	
+@font-face {font-family:"Gill Sans MT";
+	src:url("../font/GillSansMT.eot");
+	src:url("../font/GillSansMT.eot?#iefix") format("embedded-opentype"),
+	url("../font/GillSansMT.woff") format("woff"),
+	url("../font/GillSansMT.woff") format('woff2'),
+	url("../font/GillSansMT.ttf") format("truetype"),
+	url("../font/GillSansMT.svg#Gill Sans MT") format("svg");
+	}
+	
+	body { font:14pt "Malgun Gothic",Dotum; } 
+	 
+	

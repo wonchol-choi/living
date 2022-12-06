@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/bathroom.css" />
+<link rel="stylesheet" href="js/jquery-ui.min.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bathroom.js"></script>
+</head>
+
+<body>
+
+<!--wrap 시작-->
+
+<div id="wrap"> 
+  
+  <!-- header 시작 -->
+  <header id="header">
+    <div id="logo"><a href="index.html"><img src="images/logo.png" alt="로고"/></a></div>
+    <div id="topMenu">
+      <ul>
+        <li>
+          <ul class="util1">
+            <li><a href="#">login</a></li>
+            <li><a href="#">join</a></li>
+            <li><a href="#">service center</a></li>
+          </ul>
+          <ul class="util2">
+            <li><a href="#">contact</a></li>
+            <li><a href="#">sitemap</a></li>
+          </ul>
+          <ul class="util3">
+            <form name="sform" method="get" id="sform">
+              <fieldset>
+                <legend class="skip">검색</legend>
+                <label for="sbox" class="skip"></label>
+                <!--for 값과 아래 인풋의 id명이 같아야 이 글씨를 눌러도 인풋요소(커서) 활성화 됨(모바일 때문에)-->
+                <input type="search" id="sbox" placeholder="search" />
+                <input type="image" class="btn" src="images/search-icon.jpg" alt="검색" />
+              </fieldset>
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    <!--menu 시작-->
+ <nav id="menu">
+        <ul>
+        	<li id="menu1" class="menu"><a href="livingroom.html">LivingRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">거실시스템</a></li>
+                	<li><a href="#">소파</a></li>
+                    <li><a href="#">암체어</a></li>
+                    <li><a href="#">테이블</a></li>
+                    <li><a href="#">캐비넷</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">시계</a></li>
+                    <li><a href="#">액자</a></li>
+                    <li><a href="#">홈 오피스</a></li>
+                    <li><a href="#">휴지통</a></li>
+                </ul>
+            </li>
+            <li id="menu2" class="menu"><a href="bedroom.html">BedRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">침실시스템</a></li>
+                	<li><a href="#">침대</a></li>
+                    <li><a href="#">매트리스</a></li>
+                    <li><a href="#">침구세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">화장대</a></li>
+                    <li><a href="#">커튼</a></li>
+                    <li><a href="#">서랍장</a></li>
+                    <li><a href="#">벽선반</a></li>
+                    <li><a href="#">협탁</a></li>
+                </ul>
+            </li>
+            <li id="menu3" class="menu"><a href="kitchen.html">Kitchen</a>
+            	<ul class="submenu">
+                	<li><a href="#">주방시스템</a></li>
+                    <li><a href="#">냄비</a></li>
+                    <li><a href="#">그릇</a></li>
+                    <li><a href="#">접시</a></li>
+                    <li><a href="#">기타 병들</a></li>
+                    <li><a href="#">식탁세트</a></li>
+                    <li><a href="#">아일랜드</a></li>
+                    <li><a href="#">테이블보</a></li>
+                    <li><a href="#">렌지</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                </ul>
+            </li>
+            <li id="menu4" class="menu"><a href="bathroom.html">BathRoom</a>
+            	<ul class="submenu">
+                	<li><a href="#">욕실시스템</a></li>
+                    <li><a href="#">욕조</a></li>
+                    <li><a href="#">수도꼭지</a></li>
+                    <li><a href="#">타올</a></li>
+                    <li><a href="#">욕실 가운</a></li>
+                    <li><a href="#">거울</a></li>
+                    <li><a href="#">샤워 커튼</a></li>
+                    <li><a href="#">샤워기헤드</a></li>
+                    <li><a href="#">세면대</a></li>
+                    <li><a href="#">변기소품</a></li>
+                </ul>
+            </li>
+            <li id="menu5" class="menu"><a href="kidsroom.html">KidsRoom</a>
+            	<ul class="submenu">
+               		<li><a href="#">키즈시스템</a></li>
+            		<li><a href="#">텐트</a></li>
+                    <li><a href="#">놀이</a></li>
+                    <li><a href="#">오가닉제품</a></li>
+                    <li><a href="#">모빌</a></li>
+                    <li><a href="#">책상 세트</a></li>
+                    <li><a href="#">조명</a></li>
+                    <li><a href="#">유아용침대</a></li>
+                    <li><a href="#">이층침대</a></li>
+                    <li><a href="#">안전용품</a></li>
+                </ul>
+            </li>
+            <li id="menu6" class="menu"><a href="veranda.html">Veranda</a>
+            	<ul class="submenu">
+                	<li><a href="#">정원꾸미기</a></li>
+                    <li><a href="#">휴식용가구</a></li>
+                    <li><a href="#">장식조명</a></li>
+                    <li><a href="#">바닥재</a></li>
+                    <li><a href="#">인조화초/조화</a></li>
+                    <li><a href="#">화분</a></li>
+                    <li><a href="#">드라이플라워</a></li>
+                    <li><a href="#">정원소품</a></li>  
+                    <li><a href="#">원예용품</a></li>
+                    <li><a href="#">물뿌리개</a></li>                   	
+                </ul>
+            </li>
+            <li id="menu7" class="menu"><a href="diy.html">DIY&amp;Rugs</a>
+            	<ul class="submenu">
+                	<li><a href="#">DIY재료</a></li>
+                    <li><a href="#">재봉재료</a></li>
+                    <li><a href="#">커튼재료</a></li>
+                    <li><a href="#">쿠션커버</a></li>
+                    <li><a href="#">침구커버</a></li>
+                    <li><a href="#">앞치마</a></li>
+                    <li><a href="#">테이블커버</a></li>
+                    <li><a href="#">벽걸이 러그</a></li>
+                    <li><a href="#">바닥용 러그</a></li>
+                    <li><a href="#">콜라보레이션</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!--menu 끝--> 
+    
+  </header>
+  <!-- header 끝 --> 
+  
+  <!--content 시작-->
+  <div id="content">
+    <div id="visual">
+      <div class="animation_canvas">
+        <div class="slider_panel"> <img class="slider_image" src="images/bathroom/v1.jpg"/> <img class="slider_image" src="images/bathroom/v2.jpg"/> <img class="slider_image" src="images/bathroom/v3.jpg"/> </div>
+        <ul class="Vcircle">
+          <li class="B_circle"><a href="#"></a></li>
+          <li class="B_circle"><a href="#"></a></li>
+          <li class="B_circle"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="subbox">
+        	<div class="subbox" id="subimg1"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-1.jpg"></a></div>
+            <div class="subbox" id="subimg2"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-2.jpg"></a></div>
+            <div class="subbox" id="subimg3"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-3.jpg"></a></div>
+            <div class="subbox" id="subimg4"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-4.jpg"></a></div>
+            <div class="subbox" id="subimg5"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-5.jpg"></a></div>
+            <div class="subbox" id="subimg6"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-6.jpg"></a></div>
+            <div class="subbox" id="subimg7"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-7.jpg"></a></div>
+            <div class="subbox" id="subimg8"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-8.jpg"></a></div>
+            <div class="subbox" id="subimg9"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-9.jpg"></a></div>
+            <div class="subbox" id="subimg10"><a class="subboxpic" href="#"><img src="images/bathroom/icon1-10.jpg"></a></div>
+        </div>
+    
+    <!--스크롤메뉴 시작-->
+<div id="scrollMenu">
+     <ul class="depth2">
+        <li><a href="#">욕실시스템</a></li>
+        <li><a href="#">욕조</a></li>
+        <li><a href="#">수도꼭지</a></li>
+        <li><a href="#">타올</a></li>
+        <li><a href="#">욕실 가운</a></li>
+        <li><a href="#">거울</a></li>
+        <li><a href="#">샤워 커튼</a></li>
+        <li><a href="#">샤워기헤드</a></li>
+        <li><a href="#">세면대</a></li>
+        <li><a href="#">변기소품</a></li>
+      </ul>
+   </div>
+ <!--스크롤메뉴 끝-->  
+    
+    <div id="con1">
+      <div id="con1pic"><img src="images/bathroom/c1-2.jpg" alt="욕실"></div>
+      <div id="con1txt">
+        <h1>BATHROOM </h1>
+        <br/>
+        <br/>
+        <h2>편안하고 안락한 휴식 공간</h2>
+        <br/>
+        <br/>
+        <p>욕실은 단지 생리적인 현상을 해결하는 공간에서 벗어나<br/>
+          휴식을 위한 ‘세컨드 리빙룸’ 으로서의 비전을 담고 있습니다.<br/>
+          욕실은 어떻게 관리하느냐에 따라 가족의 건강을 위협하기도 하고,<br/>
+          반대로 안락한 휴식 공간이 되기도 하기 때문에<br/>
+          <strong>가족의 건강 라이프를 위해</strong> 위생과 인테리어에 신경 써야 합니다.<br/>
+          <br/>
+          공간을 넓어 보이게 하고 싶다면 <strong>거울을 적극 활용</strong>해 보세요.<br/>
+          욕실수납장에 거울을 적용하면 공간의 확장성을 강조하고<br/>
+          대용량의 수납까지 해결하는 일석이조의 역할을 할 것입니다.<br/>
+        </p>
+      </div>
+    </div>
+    <div id="con2">
+      <div id="con2pic1"><img src="images/bathroom/c1-1.jpg" alt="욕실"/></div>
+    </div>
+    <div id="con3">
+      <div id="con3pic1"><img src="images/bathroom/text.gif"></div>
+      <div id="con3txt">
+      	<h2>욕실 벽 똑똑하게 활용하기</h2>
+        <br/>
+        <p>수납공간이 부족하다면 벽으로 눈을 돌려보세요.<br/>
+          레일과 바구니를 잘 활용하면 수건부터 휴지까지 무엇이든 똑똑하게 수납할 수 있답니다.<br/>
+          흡착식 제품은 언제든지 쉽게 붙이고 떼어낼 수 있고, 깔끔한 벽이 좋다면 벽과 같은 색상의 레일과 바구니를 선택하는 게 좋습니다.<br/>
+          칫솔 홀더처럼 작은 수납제품도 적극 활용해보세요.<br/>
+        </p>
+      </div>
+    </div>
+    <div id="con4">
+      <div id="con4txt">
+        <h2>작은 가족 욕실</h2>
+        <br/>
+        <p>가족이 함께 사용하는 욕실에는 그만큼 많은 물건을 수납해야 합니다.<br/>
+          키큰장을 제대로 활용하고 싶다면 <strong>아래쪽에는 아이들의 물건을,<br/>
+          위쪽에는 어른들의 물건을 수납해보세요.<br/>
+          </strong> 안전을 위해 약과 세제 등은 아이들의 손이 닿지 않는 곳이나<br/>
+          잠금기능이 있는 수납장에 보관하는 게 좋습니다<br/>
+        </p>
+      </div>
+      <div id="con4txt2">
+        <h2>세탁을 간편하게</h2>
+        <br/>
+        <p>가족 모두의 세탁물이 한 곳에 있으면 그만큼 일이 줄어들죠.<br/>
+          바구니에 세탁방법 라벨을 붙여 세탁물을 구분해 모아둘 수 있습니다.<br/>
+          스티커를 붙이거나 패브릭펜으로 표시를 해두세요.<br/>
+          그리고 아이들의 이름이 적힌 빨래바구니를 따로 만들어주면<br/>
+          아무 데나 빨래를 던져두지도 않을 거예요.<br/>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!--content 끝--> 
+  
+  <!--footer 시작-->
+  <footer id="footer">
+    <div id="fdiv"></div>
+    <img id="flogo" src="images/footer-logo.png" alt="로고 이미지">
+    <div id="txt">경기도 성남시 분당구 돌마로 73 (우방코아 7F) 두드림컴퓨터아트학원 스마트웹콘텐츠반 막내온탑조 임고운 이진경 윤수정 윤효철 <br/>
+      <br/>
+      본 사이트의 모든 콘텐츠는 저작권법의 보호를 받는 바, 무단 전재, 복사, 배포 등을 금합니다.<br/>
+      COPYRIGHT 2015 LIVING IN FURNITURE ALL RIGHTS RESERVED.</div>
+  </footer>
+  <!--footer 끝--> 
+  
+</div>
+<!--wrap 끝-->
+
+<div id="backband">
+</div>
+</body>
+</html>
